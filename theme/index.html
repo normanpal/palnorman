@@ -70,7 +70,7 @@
     <div data-animation="default" class="nav w-nav" data-easing2="ease-in-quint" data-easing="ease-out-quint" data-collapse="tiny" role="banner" data-duration="300" id="Navbar">
       <section class="navbar-container">
         <div class="navbar-logo-div">
-          <a href="{{ links.2f }}" aria-current="page" class="navbar-logo-link w-inline-block w--current"><img src="{{ images.66c74a22.url }}" loading="lazy" width="128" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;48px&quot;}]" sizes="(max-width: 479px) 48px, 46.140625px" alt="{{ images.66c74a22.alt | trim | escape }}" class="navbar-logo"></a>
+          <a href="{{ links.2f }}" aria-current="page" class="navbar-logo-link w-inline-block w--current"><img src="{{ images.66c74a22.url }}" loading="lazy" width="128" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;48px&quot;}]" sizes="(max-width: 479px) 48px, 47.921875px" alt="{{ images.66c74a22.alt | trim | escape }}" class="navbar-logo"></a>
         </div>
         <nav role="navigation" class="navbar-main-container w-nav-menu">
           <div class="navbar-menu">
@@ -131,23 +131,23 @@
     <section id="Work" class="section wf-section">
       <div class="w-layout-blockcontainer container w-container">
         <h2 class="eyebrow u-mb-2">{{ texts.-34850e38 }}</h2>
-        <div class="w-dyn-list">
-          <div role="list" class="work-grid w-dyn-items">
-            <div role="listitem" class="work-box-wrapper w-dyn-item">
-              <a target="_blank" data-w-id="5b1e85b3-5154-56d4-8921-701457acf599" href="{{ links.23 }}" class="work-box w-inline-block">
+        {%- assign collection = collections.work | filter: "f_featured-project,eq,true", "ALL", page.inputPath | limit: 2 | sort: "-created-on" -%}<div class="w-dyn-list">
+          {%- unless collection.length == 0 -%}<div role="list" class="work-grid w-dyn-items">
+            {%- for item in collection -%}<div role="listitem" class="work-box-wrapper w-dyn-item">
+              <a target="_blank" data-w-id="5b1e85b3-5154-56d4-8921-701457acf599" href="{{ item.data.f_link }}" class="work-box w-inline-block">
                 <div class="work-box-padding"></div>
                 <div class="work-box-bg-wrapper">
-                  <div style="opacity:0" class="work-box-bg-color"></div><img style="-webkit-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" loading="eager" height="" src="{{ images.0.url }}" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" alt="{{ images.0.alt | trim | escape }}" class="work-box-bg">
+                  <div style="opacity:0; background-color: {{item.data.f_color}};" class="work-box-bg-color"></div><img style="-webkit-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" loading="eager" height="" src="{{ item.data.f_main-image.url }}" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" alt="{{ item.data.f_image-alt }}" class="work-box-bg">
                 </div>
                 <div class="info-card-wrapper">
                   <div data-w-id="5b1e85b3-5154-56d4-8921-701457acf59f" class="card cc-info-card">
                     <div class="card-body cc-stretch">
                       <div style="-webkit-transform:translate3d(null, -16px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(null, -16px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(null, -16px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(null, -16px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="work-card_header">
-                        <div class="eyebrow u-mb-0"></div>
-                        <div class="eyebrow u-mb-0"></div>
+                        <div class="eyebrow u-mb-0">{{ item.data.f_year }}</div>
+                        <div class="eyebrow u-mb-0">{{ item.data.f_type }}</div>
                       </div>
                       <div style="-webkit-transform:translate3d(null, 16px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(null, 16px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(null, 16px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(null, 16px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="work-card_title">
-                        <h3 class="h3 cc-work-name"></h3>
+                        <h3 class="h3 cc-work-name">{{ item.data.title }}</h3>
                         <div><span style="background-color:rgba(NaN,NaN,NaN,undefined);color:rgba(NaN,NaN,NaN,undefined)" class="icon-xs">{{ texts.2197 }}</span></div>
                       </div>
                     </div>
@@ -155,11 +155,11 @@
                 </div>
                 <div class="work-box-overlay"></div>
               </a>
-            </div>
-          </div>
-          <div class="work-empty w-dyn-empty">
+            </div>{%- endfor -%}
+          </div>{%- endunless -%}
+          {%- if collection.length == 0 -%}<div class="work-empty w-dyn-empty">
             <div class="paragraph eyebrow">{{ texts.3d503d2b }}</div>
-          </div>
+          </div>{%- endif -%}
         </div>
       </div>
     </section>
@@ -227,7 +227,7 @@
           <div class="col col-lg-3 col-md-6 col-xs-12">
             <div class="styles__card cc-tan cc-code-box-height">
               <div class="card-body cc-code-preview">
-                <div fs-codehighlight-theme="base16/woodland" fs-codehighlight-element="code" class="w-embed">
+                <div fs-codehighlight-element="code" fs-codehighlight-theme="base16/woodland" class="w-embed">
                   <pre><code>body {
   background-color: #1d1c1a;
   font-family: 'General Sans', Arial, sans-serif;
@@ -302,7 +302,7 @@ eyebrow {
             <div class="grid cc-big cc-horizontal">
               <div id="w-node-_2a221b45-e9fa-e518-1917-7a8c9aad5ff9-6f57e44b" class="styles__card cc-tan cc-code-box-height cc-horizontal">
                 <div class="card-body cc-code-preview">
-                  <div fs-codehighlight-theme="base16/woodland" fs-codehighlight-element="code" class="w-embed">
+                  <div fs-codehighlight-element="code" fs-codehighlight-theme="base16/woodland" class="w-embed">
                     <pre><code>&lt;img class="u-img-cover" 
 width="1600" 
 height="900" 
