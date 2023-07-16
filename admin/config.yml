@@ -3,6 +3,7 @@ backend:
   accept_roles:
     - admin
     - editor
+  branch: master
 media_folder: theme/assets/images
 public_folder: /assets/images
 collections:
@@ -151,6 +152,7 @@ collections:
         label: Featured Project?
         widget: boolean
         required: false
+        default: false
       - hint: ''
         name: f_link
         label: Link
@@ -282,17 +284,9 @@ collections:
             label: Text
             name: '-29bee30f'
             widget: string
-          - hint: 'Original text: ‍, key: 200d'
+          - hint: 'Original text: & Webflow Fejlesztő, key: -39182d90'
             label: Text
-            name: 200d
-            widget: string
-          - hint: 'Original text: &, key: 26'
-            label: Text
-            name: '26'
-            widget: string
-          - hint: 'Original text:  Webflow Fejlesztő, key: 3f9d4fca'
-            label: Text
-            name: 3f9d4fca
+            name: '-39182d90'
             widget: string
           - hint: 'Original text: Pál Norman, key: -5db51732'
             label: Text
@@ -337,33 +331,29 @@ collections:
             label: Text
             name: '-5f6f2286'
             widget: string
-          - hint: 'Original text: Kiemelt Munkák, key: -6b202218'
+          - hint: 'Original text: Kiemelt munkák, key: -34850e38'
             label: Text
-            name: '-6b202218'
+            name: '-34850e38'
+            widget: string
+          - hint: 'Original text: ↗, key: 2197'
+            label: Text
+            name: '2197'
             widget: string
           - hint: 'Original text: No items found., key: 3d503d2b'
             label: Text
             name: 3d503d2b
             widget: string
-          - hint: 'Original text: Még több hamarosan.., key: 2e87820d'
+          - hint: 'Original text: Előnyök, key: d1a31aa'
             label: Text
-            name: 2e87820d
+            name: d1a31aa
             widget: string
-          - hint: 'Original text: Elvek, key: 3ff3575'
+          - hint: 'Original text: Mindenben, key: -60ba5df0'
             label: Text
-            name: 3ff3575
+            name: '-60ba5df0'
             widget: string
-          - hint: 'Original text: Fogalmak, key: cb2c36e'
+          - hint: 'Original text: Fölényben, key: 42183793'
             label: Text
-            name: cb2c36e
-            widget: string
-          - hint: 'Original text: A , key: 7ff'
-            label: Text
-            name: 7ff
-            widget: string
-          - hint: 'Original text: Melóban, key: -6404da10'
-            label: Text
-            name: '-6404da10'
+            name: '42183793'
             widget: string
           - hint: 'Original text: Rendszerezett felépítés, key: -4ab06e08'
             label: Text
@@ -372,10 +362,11 @@ collections:
           - hint: >-
               Original text: Egy 12 oszlopból álló rendszerre építem
               weboldalaimat, amelyek tökéletesen illeszkednek minden létező
-              képernyőmérethez, egyszerű letisztult kódot generálva., key:
-              -64df7dc
+              asztali, tablet és mobil képernyőmérethez, egyszerű letisztult
+              kódot generálva és biztosítva a lehetőséget az egyszerű
+              bővítésre., key: -1f6813ce
             label: Text
-            name: '-64df7dc'
+            name: '-1f6813ce'
             widget: text
           - hint: 'Original text: Keresőmotor-barát, key: 71fd4da3'
             label: Text
@@ -390,9 +381,9 @@ collections:
             label: Text
             name: 7d7cbd3f
             widget: text
-          - hint: 'Original text: Nyakig páncélozott, key: 3ade9e8e'
+          - hint: 'Original text: Állig felfegyverezve, key: 46393eea'
             label: Text
-            name: 3ade9e8e
+            name: 46393eea
             widget: string
           - hint: >-
               Original text: Kétlépcsős azonosítással, napi mentésekkel, gyakori
@@ -410,67 +401,106 @@ collections:
               Original text: A Webflow teljes kreatív szabadságot ad
               weboldalaink elkészítésében. Előre elkészített sablonok helyett,
               minden munkámat a célnak legmegfelelőbb stratégia szem előtt
-              tartásával és a márkához leg hozzáillőbb dizájnnal valósítom meg.,
-              key: -7fcddaef
+              tartásával és a márkához leg hozzáillőbb dizájnnal valósítom meg,
+              nulláról építkezve., key: -739725d5
             label: Text
-            name: '-7fcddaef'
+            name: '-739725d5'
             widget: text
-          - hint: 'Original text: Munkamenet, key: -57f088f7'
+          - hint: 'Original text: Szolgáltatások, key: 1d303047'
             label: Text
-            name: '-57f088f7'
+            name: 1d303047
             widget: string
-          - hint: 'Original text: Fókuszban.., key: -5c0e436f'
+          - hint: 'Original text: h1, key: cc9'
             label: Text
-            name: '-5c0e436f'
+            name: cc9
             widget: string
-          - hint: 'Original text: Meghallgatás, key: -65615c'
+          - hint: 'Original text: Cím, key: 118a3'
             label: Text
-            name: '-65615c'
+            name: 118a3
             widget: string
-          - hint: >-
-              Original text: Üzleti célod, versenytársaid és célközönséged
-              ismerésének köszönhetően a lehető legjobb megoldást szabjuk
-              márkádhoz., key: -616a7184
+          - hint: 'Original text: eyebrow, key: -4cf2b017'
             label: Text
-            name: '-616a7184'
-            widget: text
-          - hint: 'Original text: Tervezés, key: -4210c9cc'
-            label: Text
-            name: '-4210c9cc'
+            name: '-4cf2b017'
             widget: string
-          - hint: >-
-              Original text: Stratégiai ülés keretében megtervezzük a teljes
-              projektet pontos határidővel, mérföldkövekkel és a büdzsével
-              együtt. Fontos a fejlesztés alatti gyakori visszajelzés, a
-              weboldalad nagyra fogja értékelni!, key: 60796c68
+          - hint: 'Original text: Egyszerű Alcím, key: 3b538fe'
             label: Text
-            name: 60796c68
-            widget: text
+            name: 3b538fe
+            widget: string
+          - hint: 'Original text: paragraph, key: 742fc96e'
+            label: Text
+            name: 742fc96e
+            widget: string
+          - hint: 'Original text: Kényelmes, olvasható szöveg., key: -30ecdd37'
+            label: Text
+            name: '-30ecdd37'
+            widget: string
           - hint: 'Original text: Dizájn és fejlesztés, key: -4abc1107'
             label: Text
             name: '-4abc1107'
             widget: string
-          - hint: >-
-              Original text: Létrehozom álmaid pixel-pontos weboldalát a
-              legkorszerűbb technológiákkal, majd SEO segítségével optimalizálom
-              a webre és minőségellenőrzést végzek., key: 5c98a415
+          - hint: "Original text: Dizájn és fejlesztés egy helyen. Lépj a következő szintre letisztult és hatásos dizájnnal,\_melyet a \"kevesebb néha több\" alapjaira építek. A kevesebb osztály, kevesebb HTML-elem kevesebb karbantartást, gyorsabb töltési időt, fejlesztést és testreszabhatóságot eredményez., key: -6a9fb1f9"
             label: Text
-            name: 5c98a415
+            name: '-6a9fb1f9'
             widget: text
-          - hint: 'Original text: Átadás és élesítés, key: 49ce3c20'
+          - hint: 'Original text: Indulóár: 120.000 Ft, key: -5b71f64f'
             label: Text
-            name: 49ce3c20
+            name: '-5b71f64f'
+            widget: string
+          - hint: 'Original text: SEO Tartalomírás, key: 3833b7f2'
+            label: Text
+            name: 3833b7f2
             widget: string
           - hint: >-
-              Original text: Átadom a kész terméket, segítséget nyújtok az
-              indulásban, további teendőkben és persze a folyamatos
-              támogatásban., key: 427967d
+              Original text: A tartalom a király. Lehet bármilyen szép és gyors
+              a honlapod, mit sem fog érni az egész ha nincs megfelelően SEO
+              konfigurálva. Fontos, hogy tartalmad a vállalkozásodnak
+              legmegfelelőbb ügyfelek megszólítására legyen hangolva. A kulcsszó
+              alapú szövegírás organikus forgalmat generál., key: 479c09a8
             label: Text
-            name: 427967d
+            name: 479c09a8
             widget: text
-          - hint: 'Original text: Hello! Norman vagyok., key: 45f71a4f'
+          - hint: 'Original text: Indulóár: 60.000 Ft, key: -11b1d022'
             label: Text
-            name: 45f71a4f
+            name: '-11b1d022'
+            widget: string
+          - hint: 'Original text: Weboldal módosítás + frissítés, key: 29093e32'
+            label: Text
+            name: '29093e32'
+            widget: string
+          - hint: "Original text: Folyamatos webhely támogatás egy házon-belüli csapat erejével. A weboldaladat időnként frissíteni kell, hogy naprakész információval tudj szolgálni ügyfeleidnek. Ezeket te is elvégezheted ha a Webflow tartalomkezelőjének\_használata mellett döntesz vagy rám is bízhatod munkát., key: -4bb455a2"
+            label: Text
+            name: '-4bb455a2'
+            widget: text
+          - hint: 'Original text: Ár: 10.000 Ft / alkalom, key: -3a890ef2'
+            label: Text
+            name: '-3a890ef2'
+            widget: string
+          - hint: 'Original text: gyakori probléma a weboldalakkal, key: 3fad048b'
+            label: Text
+            name: 3fad048b
+            widget: string
+          - hint: "Original text: A felületes, hanyag weboldal dizájn és fejlesztés rossz az ügyfeleidnek és rossz neked is. Legyen az weboldal elrendezés, dizájn minőség, kód felépítés vagy rendezés — a felületes munka veszélyes. Nem egyértelmű kommunikációval, rosszul konfigurált weboldallal és SEO\_beállításokkal pénzt és fontos ügyfeleket veszítesz., key: 5fe15e7"
+            label: Text
+            name: 5fe15e7
+            widget: text
+          - hint: 'Original text: És az egyszerű megoldás, key: -68800ced'
+            label: Text
+            name: '-68800ced'
+            widget: string
+          - hint: >-
+              Original text: A tiszta, átlátható, effektív weboldal dizájn és
+              fejlesztés jó hatással van ügyfeleidre és rád is. Dizájnerként és
+              fejlesztőként tudom mi kell egy remek, műszakilag megfelelő és
+              rendezett weboldalhoz. Ügyfeleidnek egy nagyszerű, könnyen
+              kezelhető és átlátható felület; vállalkozásodnak pedig egy könnyen
+              karbantartható és bővíthető keretrendszerre van szüksége., key:
+              -2635252d
+            label: Text
+            name: '-2635252d'
+            widget: text
+          - hint: 'Original text: Helló! Norman vagyok., key: -22726d2d'
+            label: Text
+            name: '-22726d2d'
             widget: string
           - hint: >-
               Original text: Szabadúszó webdizájnerként és Webflow fejlesztőként
@@ -491,11 +521,80 @@ collections:
             widget: text
           - hint: >-
               Original text: Szeretek a szakmára úgy gondolni mintha egy valódi,
-              kézzel készült dolgot gyártanék amit utána a kezemben tarthatok -
+              kézzel készült dolgot gyártanék amit utána a kezemben tarthatok —
               van súlya, illata, és textúrája amit egy finom tapintásra lehet
-              érezni., key: 42ecc6dc
+              érezni., key: 4fa357c3
             label: Text
-            name: 42ecc6dc
+            name: 4fa357c3
+            widget: text
+          - hint: 'Original text: Gyakran ismételt kérdések, key: 2e13f7e4'
+            label: Text
+            name: 2e13f7e4
+            widget: string
+          - hint: 'Original text: +, key: 2b'
+            label: Text
+            name: 2b
+            widget: string
+          - hint: 'Original text: Mi az a Webflow?, key: -77bb6e21'
+            label: Text
+            name: '-77bb6e21'
+            widget: string
+          - hint: >-
+              Original text: A Webflow egy online, vizuális weboldal szerkesztő,
+              tartalomkezelő és webtárhely szolgáltatás. Minden egy helyen.,
+              key: dc3c5df
+            label: Text
+            name: dc3c5df
+            widget: text
+          - hint: 'Original text: Arculatot is készítek?, key: -1d440aaa'
+            label: Text
+            name: '-1d440aaa'
+            widget: string
+          - hint: >-
+              Original text: Nem. Kizárólag weboldal szintű dizájn elkészítését
+              és Webflow weboldal fejlesztését vállalom, igazodva a már meglévő
+              arculatodhoz. Egyszerű monogram vagy szöveges logó, illetve a
+              weboldal betűtípusainak és színpalettájának megalkotásában
+              természetesen segítek, amennyiben ezekkel még nem rendelkezel.,
+              key: 3db95e6b
+            label: Text
+            name: 3db95e6b
+            widget: text
+          - hint: 'Original text: Mennyi idő mire elkészül?, key: -726631cc'
+            label: Text
+            name: '-726631cc'
+            widget: string
+          - hint: >-
+              Original text: Munkáim nagy része 1 és 3 hónap között elkészül,
+              terjedelem függvényében., key: -3743d716
+            label: Text
+            name: '-3743d716'
+            widget: string
+          - hint: 'Original text: Mennyibe is fog kerülni?, key: 134ca89f'
+            label: Text
+            name: 134ca89f
+            widget: string
+          - hint: >-
+              Original text: Terjedelemtől, vizuális komplexitástól és
+              integrációktól függően bárhol lehet 600.000 Ft.- és 180.000 Ft.-
+              között. Egyoldalas, egy-két terméket vagy szolgáltatást bemutató
+              oldal a spektrum alján; egy többoldalas, blog, galéria, hírlevél
+              feliratkozás, kapcsolati űrlap és Google Analytics integrált
+              weboldal a spektrum drágábbig végén fekszik., key: 5335f977
+            label: Text
+            name: 5335f977
+            widget: text
+          - hint: 'Original text: Mik a fizetési feltételek?, key: -69a621d7'
+            label: Text
+            name: '-69a621d7'
+            widget: string
+          - hint: >-
+              Original text: Kisebb projekteknél a számlakiállítás és fizetés a
+              weboldal átadása után, nagyobb terjedelmű, több időt felölelő
+              projektek esetében 50% előre fizetés és 50% a weboldal befejezése
+              után történik. Megegyezés alapján változhat., key: 6d612619
+            label: Text
+            name: 6d612619
             widget: text
           - hint: 'Original text: Van egy elképzelésed?, key: 28c629ba'
             label: Text
@@ -503,11 +602,11 @@ collections:
             widget: string
           - hint: >-
               Original text: Ha szeretnél velem csevegni egy projektről, üzenj
-              nekem az alábbi linken vagy bármelyik közösségi profilomon
-              keresztül és amint lehet felveszem veled a kapcsolatot., key:
-              -6ccf94e5
+              nekem az alábbi linken található űrlapon vagy bármelyik közösségi
+              profilomon keresztül és amint lehet felveszem veled a
+              kapcsolatot., key: 7746c896
             label: Text
-            name: '-6ccf94e5'
+            name: 7746c896
             widget: text
           - hint: 'Original text: Kapcsolatfelvétel, key: -313c17eb'
             label: Text
@@ -520,6 +619,10 @@ collections:
           - hint: 'Original text: Instagram, key: 792b2792'
             label: Text
             name: 792b2792
+            widget: string
+          - hint: 'Original text: GitHub, key: 7f258fe3'
+            label: Text
+            name: 7f258fe3
             widget: string
           - hint: 'Original text: LinkedIn, key: 4b0ff13e'
             label: Text
@@ -545,14 +648,6 @@ collections:
             label: Text
             name: '-6d46ea4c'
             widget: string
-          - hint: 'Original text: Szabadúszó Webdizájner, key: -5e3cacd2'
-            label: Text
-            name: '-5e3cacd2'
-            widget: string
-          - hint: 'Original text: & Webflow Fejlesztő, key: -39182d90'
-            label: Text
-            name: '-39182d90'
-            widget: string
           - hint: 'Original text: Védett, key: -603cd76c'
             label: Text
             name: '-603cd76c'
@@ -565,11 +660,9 @@ collections:
             label: Text
             name: '-7bf744a5'
             widget: string
-          - hint: >-
-              Original text: Incorrect password. Please try again., key:
-              -f5c4b5f
+          - hint: 'Original text: Rossz jelszó. Próbáld újra., key: 67ff83c7'
             label: Text
-            name: '-f5c4b5f'
+            name: 67ff83c7
             widget: string
           - hint: 'Original text: 404, key: c938'
             label: Text
@@ -590,10 +683,10 @@ collections:
             name: 70212a2a
             widget: string
           - hint: >-
-              Original text: Szeretnélek megvédeni, ezért biztonságosan kezelem
-              az adataidat.🔒, key: 2c573f9a
+              Original text: Szeretném megvédeni az adataidat, ezért
+              biztonságosan kezelem őket. 🔒, key: 43701b3a
             label: Text
-            name: 2c573f9a
+            name: 43701b3a
             widget: string
           - hint: >-
               Original text: Adatvédelem és felhasználási feltételek, key:
@@ -848,6 +941,10 @@ collections:
             label: Text
             name: b4583c0
             widget: string
+          - hint: 'Original text: ‍, key: 200d'
+            label: Text
+            name: 200d
+            widget: string
           - hint: 'Original text: Unit 3D North Point House , key: -6255fe42'
             label: Text
             name: '-6255fe42'
@@ -943,49 +1040,45 @@ collections:
             label: Text
             name: '-335bd05'
             widget: string
-          - hint: 'Original text: Cégnév, key: 7f58a1da'
+          - hint: 'Original text: Cég, key: 11821'
             label: Text
-            name: 7f58a1da
+            name: '11821'
             widget: string
-          - hint: 'Original text: Ügyfél típus, key: 2926bb10'
+          - hint: 'Original text: Dizájn, key: 7a0bfd50'
             label: Text
-            name: 2926bb10
+            name: 7a0bfd50
             widget: string
-          - hint: 'Original text: Magánszemély, key: -6f160799'
+          - hint: 'Original text: Fejlesztés, key: 525998b3'
             label: Text
-            name: '-6f160799'
+            name: 525998b3
             widget: string
-          - hint: 'Original text: Vállalkozás, key: -1d21bfee'
+          - hint: 'Original text: SEO, key: 1403d'
             label: Text
-            name: '-1d21bfee'
+            name: 1403d
             widget: string
-          - hint: 'Original text: Non-profit, key: 6cdf8964'
+          - hint: 'Original text: egyéb, key: 5bffaf0'
             label: Text
-            name: 6cdf8964
-            widget: string
-          - hint: 'Original text: Egyéb, key: 3fd0ad0'
-            label: Text
-            name: 3fd0ad0
+            name: 5bffaf0
             widget: string
           - hint: 'Original text: Büdzsé, key: 7eae49e6'
             label: Text
             name: 7eae49e6
             widget: string
-          - hint: 'Original text: 100.000 Ft.-, key: -70dc0d86'
+          - hint: 'Original text: 200.000 Ft., key: -667d3d2c'
             label: Text
-            name: '-70dc0d86'
+            name: '-667d3d2c'
             widget: string
-          - hint: 'Original text: 250.000 Ft.-, key: 7f4d159e'
+          - hint: 'Original text: 400.000 Ft., key: -3cb3d7aa'
             label: Text
-            name: 7f4d159e
+            name: '-3cb3d7aa'
             widget: string
-          - hint: 'Original text: 500.000 Ft.-, key: -5215780a'
+          - hint: 'Original text: 600.000 Ft.+, key: -4a63d2ad'
             label: Text
-            name: '-5215780a'
+            name: '-4a63d2ad'
             widget: string
-          - hint: 'Original text: nem tudom, key: 747a1017'
+          - hint: 'Original text: Nem tudom, key: -1413d009'
             label: Text
-            name: 747a1017
+            name: '-1413d009'
             widget: string
           - hint: 'Original text: Projekt részletek, key: -5e13be0c'
             label: Text
@@ -999,15 +1092,1099 @@ collections:
             label: Text
             name: '-1c3642e0'
             widget: string
-          - hint: 'Original text: Rövid időn belül válaszolok.🚀, key: -29a46fcb'
+          - hint: >-
+              Original text: Az üzeneted megkaptam, rövid időn belül
+              válaszolok.🚀, key: 1aa16b9a
             label: Text
-            name: '-29a46fcb'
+            name: 1aa16b9a
             widget: string
           - hint: >-
               Original text: Hoppá! Valami balul sült el az űrlap küldése
               közben., key: -5550e618
             label: Text
             name: '-5550e618'
+            widget: string
+          - hint: 'Original text: v1.0.0, key: -33dc0401'
+            label: Text
+            name: '-33dc0401'
+            widget: string
+          - hint: 'Original text: Type, key: 28035a'
+            label: Text
+            name: 28035a
+            widget: string
+          - hint: 'Original text: Color, key: 3e43f43'
+            label: Text
+            name: 3e43f43
+            widget: string
+          - hint: 'Original text: Components, key: 5c265f36'
+            label: Text
+            name: 5c265f36
+            widget: string
+          - hint: 'Original text: Utilities, key: -42872916'
+            label: Text
+            name: '-42872916'
+            widget: string
+          - hint: 'Original text: Layout, key: -78c018b6'
+            label: Text
+            name: '-78c018b6'
+            widget: string
+          - hint: 'Original text: Docs, key: 20965b'
+            label: Text
+            name: 20965b
+            widget: string
+          - hint: 'Original text: Typography, key: 5500514f'
+            label: Text
+            name: 5500514f
+            widget: string
+          - hint: 'Original text: Fonts, key: 40e8de4'
+            label: Text
+            name: 40e8de4
+            widget: string
+          - hint: 'Original text: General Sans, key: 5ec5c10b'
+            label: Text
+            name: 5ec5c10b
+            widget: string
+          - hint: "Original text: Headings +\_Body, key: d626546"
+            label: Text
+            name: d626546
+            widget: string
+          - hint: 'Original text: Type:, key: 4d86820'
+            label: Text
+            name: 4d86820
+            widget: string
+          - hint: 'Original text:  Sans Serif, key: -6021b030'
+            label: Text
+            name: '-6021b030'
+            widget: string
+          - hint: 'Original text: Weights:, key: -1a9b0941'
+            label: Text
+            name: '-1a9b0941'
+            widget: string
+          - hint: 'Original text:  Normal (400), Medium (500), key: 1ee3f789'
+            label: Text
+            name: 1ee3f789
+            widget: string
+          - hint: 'Original text: Source:, key: -154acca1'
+            label: Text
+            name: '-154acca1'
+            widget: string
+          - hint: 'Original text: fontshare.com, key: -5495f07d'
+            label: Text
+            name: '-5495f07d'
+            widget: string
+          - hint: 'Original text: JetBrains Mono, key: 565318cd'
+            label: Text
+            name: 565318cd
+            widget: string
+          - hint: 'Original text: Eyebrows, key: -4d88ee36'
+            label: Text
+            name: '-4d88ee36'
+            widget: string
+          - hint: 'Original text:  Monospace, key: -54b9b03d'
+            label: Text
+            name: '-54b9b03d'
+            widget: string
+          - hint: >-
+              Original text:  Normal (400), Medium (500) / Always all caps, key:
+              451cfe09
+            label: Text
+            name: 451cfe09
+            widget: string
+          - hint: 'Original text: Headings, key: -3e9d592f'
+            label: Text
+            name: '-3e9d592f'
+            widget: string
+          - hint: 'Original text: H1 Headings, key: -13ae8bd8'
+            label: Text
+            name: '-13ae8bd8'
+            widget: string
+          - hint: 'Original text: Element, key: 1bb6dc'
+            label: Text
+            name: 1bb6dc
+            widget: string
+          - hint: 'Original text: H2 Headings, key: -1f651ab9'
+            label: Text
+            name: '-1f651ab9'
+            widget: string
+          - hint: 'Original text: H3 Headings, key: -2b1ba99a'
+            label: Text
+            name: '-2b1ba99a'
+            widget: string
+          - hint: 'Original text: H4 Headings, key: -36d2387b'
+            label: Text
+            name: '-36d2387b'
+            widget: string
+          - hint: 'Original text: Class, key: 3e2b958'
+            label: Text
+            name: 3e2b958
+            widget: string
+          - hint: 'Original text: h2, key: cca'
+            label: Text
+            name: cca
+            widget: string
+          - hint: 'Original text: h3, key: ccb'
+            label: Text
+            name: ccb
+            widget: string
+          - hint: 'Original text: h4, key: ccc'
+            label: Text
+            name: ccc
+            widget: string
+          - hint: 'Original text: Body, key: 1fadc2'
+            label: Text
+            name: 1fadc2
+            widget: string
+          - hint: 'Original text: paragraph-1.5, key: -24b96b27'
+            label: Text
+            name: '-24b96b27'
+            widget: string
+          - hint: >-
+              Original text: Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Suspendisse varius enim in eros elementum tristique., key:
+              6f9475d5
+            label: Text
+            name: 6f9475d5
+            widget: text
+          - hint: 'Original text: paragraph-1.25, key: -7273f9e1'
+            label: Text
+            name: '-7273f9e1'
+            widget: string
+          - hint: >-
+              Original text: Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Suspendisse varius enim in eros elementum tristique. , key:
+              -7d05bb15
+            label: Text
+            name: '-7d05bb15'
+            widget: text
+          - hint: 'Original text: paragraph-0.9, key: -24b96ee4'
+            label: Text
+            name: '-24b96ee4'
+            widget: string
+          - hint: 'Original text: Lorem Ipsum, key: -1d1715a5'
+            label: Text
+            name: '-1d1715a5'
+            widget: string
+          - hint: 'Original text: All Ordered Lists, key: 4209e983'
+            label: Text
+            name: '4209e983'
+            widget: string
+          - hint: 'Original text: Example Ordered List, key: -69a54439'
+            label: Text
+            name: '-69a54439'
+            widget: string
+          - hint: 'Original text: All Unordered Lists, key: -73afc0b6'
+            label: Text
+            name: '-73afc0b6'
+            widget: string
+          - hint: 'Original text: Example Unordered List, key: -66c748a0'
+            label: Text
+            name: '-66c748a0'
+            widget: string
+          - hint: 'Original text: Background, key: 276a314e'
+            label: Text
+            name: 276a314e
+            widget: string
+          - hint: 'Original text: Primary, key: 5075a5e2'
+            label: Text
+            name: 5075a5e2
+            widget: string
+          - hint: 'Original text: #e5cc80, key: -15131655'
+            label: Text
+            name: '-15131655'
+            widget: string
+          - hint: 'Original text: u-bg-primary, key: bdbe8d2'
+            label: Text
+            name: bdbe8d2
+            widget: string
+          - hint: 'Original text: Muddy Black, key: 284d1030'
+            label: Text
+            name: 284d1030
+            widget: string
+          - hint: 'Original text: #1d1c1a, key: -6b4f8128'
+            label: Text
+            name: '-6b4f8128'
+            widget: string
+          - hint: 'Original text: u-bg-muddyblack, key: 309bf87e'
+            label: Text
+            name: 309bf87e
+            widget: string
+          - hint: 'Original text: Dark Gray, key: 58158cd'
+            label: Text
+            name: 58158cd
+            widget: string
+          - hint: 'Original text: #302f2c, key: -6ac2165b'
+            label: Text
+            name: '-6ac2165b'
+            widget: string
+          - hint: 'Original text: u-bg-darkgray, key: 1d0b4e09'
+            label: Text
+            name: 1d0b4e09
+            widget: string
+          - hint: 'Original text: Mid Gray, key: -624da685'
+            label: Text
+            name: '-624da685'
+            widget: string
+          - hint: 'Original text: #888680, key: -61c718a7'
+            label: Text
+            name: '-61c718a7'
+            widget: string
+          - hint: 'Original text: u-bg-midgray, key: 5d84a77b'
+            label: Text
+            name: 5d84a77b
+            widget: string
+          - hint: 'Original text: Beige, key: 3d18fc4'
+            label: Text
+            name: 3d18fc4
+            widget: string
+          - hint: 'Original text: #fbe6c7, key: -10e3d6fc'
+            label: Text
+            name: '-10e3d6fc'
+            widget: string
+          - hint: 'Original text: u-bg-beige, key: 14cbceb4'
+            label: Text
+            name: 14cbceb4
+            widget: string
+          - hint: 'Original text: Light Beige, key: 73c6d81a'
+            label: Text
+            name: 73c6d81a
+            widget: string
+          - hint: 'Original text: #eeebdd, key: -126dc3a0'
+            label: Text
+            name: '-126dc3a0'
+            widget: string
+          - hint: 'Original text: u-bg-lightbeige, key: 4bce7bbe'
+            label: Text
+            name: 4bce7bbe
+            widget: string
+          - hint: 'Original text: Text, key: 27b94d'
+            label: Text
+            name: 27b94d
+            widget: string
+          - hint: 'Original text: Aa, key: 840'
+            label: Text
+            name: '840'
+            widget: string
+          - hint: 'Original text: u-text-primary, key: 436003ba'
+            label: Text
+            name: 436003ba
+            widget: string
+          - hint: 'Original text: u-text-muddyblack, key: -592ceb6a'
+            label: Text
+            name: '-592ceb6a'
+            widget: string
+          - hint: 'Original text: u-text-darkgray, key: -29f56fdf'
+            label: Text
+            name: '-29f56fdf'
+            widget: string
+          - hint: 'Original text: u-text-midgray, key: -6af73d9d'
+            label: Text
+            name: '-6af73d9d'
+            widget: string
+          - hint: 'Original text: u-text-beige, key: -23167c64'
+            label: Text
+            name: '-23167c64'
+            widget: string
+          - hint: 'Original text: White, key: 4fadc09'
+            label: Text
+            name: 4fadc09
+            widget: string
+          - hint: 'Original text: u-text-lightbeige, key: -3dfa682a'
+            label: Text
+            name: '-3dfa682a'
+            widget: string
+          - hint: 'Original text: Buttons, key: 719b5761'
+            label: Text
+            name: 719b5761
+            widget: string
+          - hint: 'Original text: Button, key: 77471352'
+            label: Text
+            name: '77471352'
+            widget: string
+          - hint: 'Original text: Default, key: -40b391df'
+            label: Text
+            name: '-40b391df'
+            widget: string
+          - hint: 'Original text: btn, key: 17e5c'
+            label: Text
+            name: 17e5c
+            widget: string
+          - hint: 'Original text: Disabled, key: 14009e9c'
+            label: Text
+            name: 14009e9c
+            widget: string
+          - hint: 'Original text: cc-disabled, key: 2d059d49'
+            label: Text
+            name: 2d059d49
+            widget: string
+          - hint: 'Original text: Secondary, key: 46b69154'
+            label: Text
+            name: 46b69154
+            widget: string
+          - hint: 'Original text: cc-secondary, key: 4e516847'
+            label: Text
+            name: '4e516847'
+            widget: string
+          - hint: 'Original text: Text Link, key: 3610230d'
+            label: Text
+            name: 3610230d
+            widget: string
+          - hint: 'Original text: All Links, key: 47b903a'
+            label: Text
+            name: 47b903a
+            widget: string
+          - hint: 'Original text: Default Light, key: 106aea37'
+            label: Text
+            name: 106aea37
+            widget: string
+          - hint: 'Original text: cc-light, key: -bf57297'
+            label: Text
+            name: '-bf57297'
+            widget: string
+          - hint: 'Original text: Secondary Light, key: -1bb364d6'
+            label: Text
+            name: '-1bb364d6'
+            widget: string
+          - hint: 'Original text: Text Link Light, key: -3129c1dd'
+            label: Text
+            name: '-3129c1dd'
+            widget: string
+          - hint: 'Original text: u-text-white, key: -21ed301f'
+            label: Text
+            name: '-21ed301f'
+            widget: string
+          - hint: 'Original text: Forms, key: 40e9c0f'
+            label: Text
+            name: 40e9c0f
+            widget: string
+          - hint: 'Original text: Name*, key: 478e6df'
+            label: Text
+            name: 478e6df
+            widget: string
+          - hint: 'Original text: Email*, key: 7bec142e'
+            label: Text
+            name: 7bec142e
+            widget: string
+          - hint: 'Original text: Favorite Item, key: -83318e9'
+            label: Text
+            name: '-83318e9'
+            widget: string
+          - hint: 'Original text: Select one..., key: 57f3b1cc'
+            label: Text
+            name: 57f3b1cc
+            widget: string
+          - hint: 'Original text: First Choice, key: -491b32af'
+            label: Text
+            name: '-491b32af'
+            widget: string
+          - hint: 'Original text: Second Choice, key: 3c4172cd'
+            label: Text
+            name: 3c4172cd
+            widget: string
+          - hint: 'Original text: Third Choice, key: -1b351146'
+            label: Text
+            name: '-1b351146'
+            widget: string
+          - hint: 'Original text: Comment, key: -642179c1'
+            label: Text
+            name: '-642179c1'
+            widget: string
+          - hint: 'Original text: Radio, key: 4b123db'
+            label: Text
+            name: 4b123db
+            widget: string
+          - hint: 'Original text: Checkbox, key: 5f757fe3'
+            label: Text
+            name: 5f757fe3
+            widget: string
+          - hint: 'Original text: *Required, key: 3fa5c5e9'
+            label: Text
+            name: 3fa5c5e9
+            widget: string
+          - hint: 'Original text: Thank you for your submission!, key: -696075aa'
+            label: Text
+            name: '-696075aa'
+            widget: string
+          - hint: >-
+              Original text: Oops! Something went wrong while submitting the
+              form., key: -7c112e99
+            label: Text
+            name: '-7c112e99'
+            widget: string
+          - hint: 'Original text: Card, key: 1fef30'
+            label: Text
+            name: 1fef30
+            widget: string
+          - hint: 'Original text: Prevent Style Clean Up, key: 5b8fb929'
+            label: Text
+            name: 5b8fb929
+            widget: string
+          - hint: 'Original text: Margin, key: -770e8e32'
+            label: Text
+            name: '-770e8e32'
+            widget: string
+          - hint: 'Original text: Top, key: 14935'
+            label: Text
+            name: '14935'
+            widget: string
+          - hint: 'Original text: u-mt-0, key: -35ab981e'
+            label: Text
+            name: '-35ab981e'
+            widget: string
+          - hint: 'Original text: margin-top: 0;, key: -39ae3a99'
+            label: Text
+            name: '-39ae3a99'
+            widget: string
+          - hint: 'Original text: u-mt-1, key: -35ab981d'
+            label: Text
+            name: '-35ab981d'
+            widget: string
+          - hint: 'Original text: margin-top: 1em;, key: 78f7271e'
+            label: Text
+            name: 78f7271e
+            widget: string
+          - hint: 'Original text: u-mt-2, key: -35ab981c'
+            label: Text
+            name: '-35ab981c'
+            widget: string
+          - hint: 'Original text: margin-top: 2em;, key: 78f79b7d'
+            label: Text
+            name: 78f79b7d
+            widget: string
+          - hint: 'Original text: u-mt-3, key: -35ab981b'
+            label: Text
+            name: '-35ab981b'
+            widget: string
+          - hint: 'Original text: margin-top: 3em;, key: 78f80fdc'
+            label: Text
+            name: 78f80fdc
+            widget: string
+          - hint: 'Original text: u-mt-auto, key: 547d00bd'
+            label: Text
+            name: 547d00bd
+            widget: string
+          - hint: 'Original text: margin-top: auto;, key: -57667470'
+            label: Text
+            name: '-57667470'
+            widget: string
+          - hint: 'Original text: Bottom, key: 76f2864b'
+            label: Text
+            name: 76f2864b
+            widget: string
+          - hint: 'Original text: u-mb-0, key: -35abdbb0'
+            label: Text
+            name: '-35abdbb0'
+            widget: string
+          - hint: 'Original text: margin-bottom: 0;, key: -61866a25'
+            label: Text
+            name: '-61866a25'
+            widget: string
+          - hint: 'Original text: u-mb-1, key: -35abdbaf'
+            label: Text
+            name: '-35abdbaf'
+            widget: string
+          - hint: 'Original text: margin-bottom: 1em;, key: -1993556e'
+            label: Text
+            name: '-1993556e'
+            widget: string
+          - hint: 'Original text: u-mb-2, key: -35abdbae'
+            label: Text
+            name: '-35abdbae'
+            widget: string
+          - hint: 'Original text: margin-bottom: 2em;, key: -1992e10f'
+            label: Text
+            name: '-1992e10f'
+            widget: string
+          - hint: 'Original text: u-mb-3, key: -35abdbad'
+            label: Text
+            name: '-35abdbad'
+            widget: string
+          - hint: 'Original text: margin-bottom: 3em;, key: -19926cb0'
+            label: Text
+            name: '-19926cb0'
+            widget: string
+          - hint: 'Original text: Other, key: 48f8ef0'
+            label: Text
+            name: 48f8ef0
+            widget: string
+          - hint: 'Original text: u-m-0, key: 686d178'
+            label: Text
+            name: 686d178
+            widget: string
+          - hint: 'Original text: margin: 0;, key: 7570da5f'
+            label: Text
+            name: 7570da5f
+            widget: string
+          - hint: 'Original text: u-mlr-auto, key: 6c9c6e1'
+            label: Text
+            name: 6c9c6e1
+            widget: string
+          - hint: 'Original text: margin: 0 auto; (centers element)), key: abbd58a'
+            label: Text
+            name: abbd58a
+            widget: string
+          - hint: 'Original text: u-mr-1, key: -35ab9f9f'
+            label: Text
+            name: '-35ab9f9f'
+            widget: string
+          - hint: 'Original text: margin-right: 1em;, key: f561265'
+            label: Text
+            name: f561265
+            widget: string
+          - hint: 'Original text: u-ml-1, key: -35abb625'
+            label: Text
+            name: '-35abb625'
+            widget: string
+          - hint: 'Original text: margin-left: 1em;, key: 51aa3f2e'
+            label: Text
+            name: 51aa3f2e
+            widget: string
+          - hint: 'Original text: Padding, key: 3328d3f1'
+            label: Text
+            name: 3328d3f1
+            widget: string
+          - hint: 'Original text: u-pt-0, key: -35aa3b01'
+            label: Text
+            name: '-35aa3b01'
+            widget: string
+          - hint: 'Original text: padding-top: 0;, key: -3ee99736'
+            label: Text
+            name: '-3ee99736'
+            widget: string
+          - hint: 'Original text: u-pt-1, key: -35aa3b00'
+            label: Text
+            name: '-35aa3b00'
+            widget: string
+          - hint: 'Original text: padding-top: 1em;, key: -2adf823f'
+            label: Text
+            name: '-2adf823f'
+            widget: string
+          - hint: 'Original text: u-pt-2, key: -35aa3aff'
+            label: Text
+            name: '-35aa3aff'
+            widget: string
+          - hint: 'Original text: padding-top: 2em;, key: -2adf0de0'
+            label: Text
+            name: '-2adf0de0'
+            widget: string
+          - hint: 'Original text: u-pt-3, key: -35aa3afe'
+            label: Text
+            name: '-35aa3afe'
+            widget: string
+          - hint: 'Original text: padding-top: 3em;, key: -2ade9981'
+            label: Text
+            name: '-2ade9981'
+            widget: string
+          - hint: 'Original text: u-pb-0, key: -35aa7e93'
+            label: Text
+            name: '-35aa7e93'
+            widget: string
+          - hint: 'Original text: padding-bottom: 0;, key: -3884ec68'
+            label: Text
+            name: '-3884ec68'
+            widget: string
+          - hint: 'Original text: u-pb-1, key: -35aa7e92'
+            label: Text
+            name: '-35aa7e92'
+            widget: string
+          - hint: 'Original text: padding-bottom: 1em;, key: -2afa52f1'
+            label: Text
+            name: '-2afa52f1'
+            widget: string
+          - hint: 'Original text: u-pb-2, key: -35aa7e91'
+            label: Text
+            name: '-35aa7e91'
+            widget: string
+          - hint: 'Original text: padding-bottom: 2em;, key: -2af9de92'
+            label: Text
+            name: '-2af9de92'
+            widget: string
+          - hint: 'Original text: u-pb-3, key: -35aa7e90'
+            label: Text
+            name: '-35aa7e90'
+            widget: string
+          - hint: 'Original text: padding-bottom: 3em;, key: -2af96a33'
+            label: Text
+            name: '-2af96a33'
+            widget: string
+          - hint: 'Original text: u-p-0, key: 686dcbb'
+            label: Text
+            name: 686dcbb
+            widget: string
+          - hint: 'Original text: padding: 0;, key: -598358be'
+            label: Text
+            name: '-598358be'
+            widget: string
+          - hint: 'Original text: u-p-1, key: 686dcbc'
+            label: Text
+            name: 686dcbc
+            widget: string
+          - hint: 'Original text: padding: 1em;, key: -60f01c7'
+            label: Text
+            name: '-60f01c7'
+            widget: string
+          - hint: 'Original text: Alignment, key: -1f2e3e3d'
+            label: Text
+            name: '-1f2e3e3d'
+            widget: string
+          - hint: 'Original text: u-text-center, key: -3e01c063'
+            label: Text
+            name: '-3e01c063'
+            widget: string
+          - hint: 'Original text: text-align: center;, key: -78e63825'
+            label: Text
+            name: '-78e63825'
+            widget: string
+          - hint: 'Original text: u-text-right, key: -22333a2c'
+            label: Text
+            name: '-22333a2c'
+            widget: string
+          - hint: 'Original text: text-align: right;, key: -55738656'
+            label: Text
+            name: '-55738656'
+            widget: string
+          - hint: 'Original text: Overflow, key: 236c1822'
+            label: Text
+            name: 236c1822
+            widget: string
+          - hint: 'Original text: u-overflow-hidden, key: 16cba47d'
+            label: Text
+            name: 16cba47d
+            widget: string
+          - hint: 'Original text: overflow: hidden;, key: 29b78829'
+            label: Text
+            name: 29b78829
+            widget: string
+          - hint: 'Original text: u-overflow-visible, key: -57ea3c01'
+            label: Text
+            name: '-57ea3c01'
+            widget: string
+          - hint: 'Original text: overflow: visible;, key: -2a98474f'
+            label: Text
+            name: '-2a98474f'
+            widget: string
+          - hint: 'Original text: Display + position, key: -68d43844'
+            label: Text
+            name: '-68d43844'
+            widget: string
+          - hint: 'Original text: u-d-none, key: 73b45b59'
+            label: Text
+            name: 73b45b59
+            widget: string
+          - hint: 'Original text: display: none;, key: 369aa19b'
+            label: Text
+            name: 369aa19b
+            widget: string
+          - hint: 'Original text: u-d-block, key: 22c9c8c'
+            label: Text
+            name: 22c9c8c
+            widget: string
+          - hint: 'Original text: display: block;, key: -77ea694a'
+            label: Text
+            name: '-77ea694a'
+            widget: string
+          - hint: 'Original text: u-d-flex, key: 73b0ac1a'
+            label: Text
+            name: 73b0ac1a
+            widget: string
+          - hint: 'Original text: display: flex;, key: 362868fa'
+            label: Text
+            name: 362868fa
+            widget: string
+          - hint: 'Original text: u-position-relative;, key: -66199c5d'
+            label: Text
+            name: '-66199c5d'
+            widget: string
+          - hint: 'Original text: position: relative;, key: 500145c0'
+            label: Text
+            name: 500145c0
+            widget: string
+          - hint: 'Original text: Size, key: 275421'
+            label: Text
+            name: '275421'
+            widget: string
+          - hint: 'Original text: u-w-100, key: -7f5ab7bd'
+            label: Text
+            name: '-7f5ab7bd'
+            widget: string
+          - hint: 'Original text: width: 100%;, key: -55e48d85'
+            label: Text
+            name: '-55e48d85'
+            widget: string
+          - hint: 'Original text: u-h-100, key: 7fd1e7b4'
+            label: Text
+            name: 7fd1e7b4
+            widget: string
+          - hint: "Original text: height:\_100%;, key: -58860086"
+            label: Text
+            name: '-58860086'
+            widget: string
+          - hint: 'Original text: Helpers, key: -6cbf819b'
+            label: Text
+            name: '-6cbf819b'
+            widget: string
+          - hint: 'Original text: u-img-cover, key: -5c8c8a2b'
+            label: Text
+            name: '-5c8c8a2b'
+            widget: string
+          - hint: 'Original text: Multiple properties, key: -558a62dd'
+            label: Text
+            name: '-558a62dd'
+            widget: string
+          - hint: 'Original text: u-link-cover, key: -5f214b84'
+            label: Text
+            name: '-5f214b84'
+            widget: string
+          - hint: 'Original text: Open link, key: -2fde0810'
+            label: Text
+            name: '-2fde0810'
+            widget: string
+          - hint: 'Original text: u-aspect-1x1, key: -24499bf3'
+            label: Text
+            name: '-24499bf3'
+            widget: string
+          - hint: 'Original text: u-z-index-1, key: 5c74a04b'
+            label: Text
+            name: 5c74a04b
+            widget: string
+          - hint: 'Original text: u-sr-only, key: -71810afe'
+            label: Text
+            name: '-71810afe'
+            widget: string
+          - hint: 'Original text: Screen Reader Only, key: -261644ab'
+            label: Text
+            name: '-261644ab'
+            widget: string
+          - hint: 'Original text: u-border, key: 73ee6084'
+            label: Text
+            name: 73ee6084
+            widget: string
+          - hint: 'Original text: Section, key: -2757e93b'
+            label: Text
+            name: '-2757e93b'
+            widget: string
+          - hint: 'Original text: section, key: 756f7ee5'
+            label: Text
+            name: 756f7ee5
+            widget: string
+          - hint: 'Original text: Container, key: 5ef36c61'
+            label: Text
+            name: 5ef36c61
+            widget: string
+          - hint: 'Original text: container, key: -187eb37f'
+            label: Text
+            name: '-187eb37f'
+            widget: string
+          - hint: 'Original text: Grid, key: 21ff66'
+            label: Text
+            name: 21ff66
+            widget: string
+          - hint: 'Original text: col, key: 18180'
+            label: Text
+            name: '18180'
+            widget: string
+          - hint: 'Original text: Grid - Desktop, key: -7e8e1d31'
+            label: Text
+            name: '-7e8e1d31'
+            widget: string
+          - hint: 'Original text: col-lg-1, key: -291fcf74'
+            label: Text
+            name: '-291fcf74'
+            widget: string
+          - hint: 'Original text: col-lg-11, key: 525e125'
+            label: Text
+            name: '525e125'
+            widget: string
+          - hint: 'Original text: col-lg-2, key: -291fcf73'
+            label: Text
+            name: '-291fcf73'
+            widget: string
+          - hint: 'Original text: col-lg-10, key: 525e124'
+            label: Text
+            name: '525e124'
+            widget: string
+          - hint: 'Original text: col-lg-3, key: -291fcf72'
+            label: Text
+            name: '-291fcf72'
+            widget: string
+          - hint: 'Original text: col-lg-9, key: -291fcf6c'
+            label: Text
+            name: '-291fcf6c'
+            widget: string
+          - hint: 'Original text: col-lg-4, key: -291fcf71'
+            label: Text
+            name: '-291fcf71'
+            widget: string
+          - hint: 'Original text: col-lg-8, key: -291fcf6d'
+            label: Text
+            name: '-291fcf6d'
+            widget: string
+          - hint: 'Original text: col-lg-5, key: -291fcf70'
+            label: Text
+            name: '-291fcf70'
+            widget: string
+          - hint: 'Original text: col-lg-7, key: -291fcf6e'
+            label: Text
+            name: '-291fcf6e'
+            widget: string
+          - hint: 'Original text: col-lg-6, key: -291fcf6f'
+            label: Text
+            name: '-291fcf6f'
+            widget: string
+          - hint: 'Original text: col-lg-12, key: 525e126'
+            label: Text
+            name: '525e126'
+            widget: string
+          - hint: 'Original text: Grid - Tablet, key: eb64953'
+            label: Text
+            name: eb64953
+            widget: string
+          - hint: 'Original text: col-md-1, key: -291f6658'
+            label: Text
+            name: '-291f6658'
+            widget: string
+          - hint: 'Original text: col-md-11, key: 5329b89'
+            label: Text
+            name: 5329b89
+            widget: string
+          - hint: 'Original text: col-md-2, key: -291f6657'
+            label: Text
+            name: '-291f6657'
+            widget: string
+          - hint: 'Original text: col-md-10, key: 5329b88'
+            label: Text
+            name: 5329b88
+            widget: string
+          - hint: 'Original text: col-md-3, key: -291f6656'
+            label: Text
+            name: '-291f6656'
+            widget: string
+          - hint: 'Original text: col-md-9, key: -291f6650'
+            label: Text
+            name: '-291f6650'
+            widget: string
+          - hint: 'Original text: col-md-4, key: -291f6655'
+            label: Text
+            name: '-291f6655'
+            widget: string
+          - hint: 'Original text: col-md-8, key: -291f6651'
+            label: Text
+            name: '-291f6651'
+            widget: string
+          - hint: 'Original text: col-md-5, key: -291f6654'
+            label: Text
+            name: '-291f6654'
+            widget: string
+          - hint: 'Original text: col-md-7, key: -291f6652'
+            label: Text
+            name: '-291f6652'
+            widget: string
+          - hint: 'Original text: col-md-6, key: -291f6653'
+            label: Text
+            name: '-291f6653'
+            widget: string
+          - hint: 'Original text: col-md-12, key: 5329b8a'
+            label: Text
+            name: 5329b8a
+            widget: string
+          - hint: 'Original text: Grid - Mobile Landscape, key: -19d614b6'
+            label: Text
+            name: '-19d614b6'
+            widget: string
+          - hint: 'Original text: col-sm-1, key: -291c8a55'
+            label: Text
+            name: '-291c8a55'
+            widget: string
+          - hint: 'Original text: col-sm-11, key: 58b3fe6'
+            label: Text
+            name: 58b3fe6
+            widget: string
+          - hint: 'Original text: col-sm-2, key: -291c8a54'
+            label: Text
+            name: '-291c8a54'
+            widget: string
+          - hint: 'Original text: col-sm-10, key: 58b3fe5'
+            label: Text
+            name: 58b3fe5
+            widget: string
+          - hint: 'Original text: col-sm-3, key: -291c8a53'
+            label: Text
+            name: '-291c8a53'
+            widget: string
+          - hint: 'Original text: col-sm-9, key: -291c8a4d'
+            label: Text
+            name: '-291c8a4d'
+            widget: string
+          - hint: 'Original text: col-sm-4, key: -291c8a52'
+            label: Text
+            name: '-291c8a52'
+            widget: string
+          - hint: 'Original text: col-sm-8, key: -291c8a4e'
+            label: Text
+            name: '-291c8a4e'
+            widget: string
+          - hint: 'Original text: col-sm-5, key: -291c8a51'
+            label: Text
+            name: '-291c8a51'
+            widget: string
+          - hint: 'Original text: col-sm-7, key: -291c8a4f'
+            label: Text
+            name: '-291c8a4f'
+            widget: string
+          - hint: 'Original text: col-sm-6, key: -291c8a50'
+            label: Text
+            name: '-291c8a50'
+            widget: string
+          - hint: 'Original text: col-sm-12, key: 58b3fe7'
+            label: Text
+            name: 58b3fe7
+            widget: string
+          - hint: 'Original text: Grid - Mobile Portrait, key: -75050ad4'
+            label: Text
+            name: '-75050ad4'
+            widget: string
+          - hint: 'Original text: col-xs-1, key: -291a2df4'
+            label: Text
+            name: '-291a2df4'
+            widget: string
+          - hint: 'Original text: col-xs-11, key: 5d46fa5'
+            label: Text
+            name: 5d46fa5
+            widget: string
+          - hint: 'Original text: col-xs-2, key: -291a2df3'
+            label: Text
+            name: '-291a2df3'
+            widget: string
+          - hint: 'Original text: col-xs-10, key: 5d46fa4'
+            label: Text
+            name: 5d46fa4
+            widget: string
+          - hint: 'Original text: col-xs-3, key: -291a2df2'
+            label: Text
+            name: '-291a2df2'
+            widget: string
+          - hint: 'Original text: col-xs-9, key: -291a2dec'
+            label: Text
+            name: '-291a2dec'
+            widget: string
+          - hint: 'Original text: col-xs-4, key: -291a2df1'
+            label: Text
+            name: '-291a2df1'
+            widget: string
+          - hint: 'Original text: col-xs-8, key: -291a2ded'
+            label: Text
+            name: '-291a2ded'
+            widget: string
+          - hint: 'Original text: col-xs-5, key: -291a2df0'
+            label: Text
+            name: '-291a2df0'
+            widget: string
+          - hint: 'Original text: col-xs-7, key: -291a2dee'
+            label: Text
+            name: '-291a2dee'
+            widget: string
+          - hint: 'Original text: col-xs-6, key: -291a2def'
+            label: Text
+            name: '-291a2def'
+            widget: string
+          - hint: 'Original text: col-xs-12, key: 5d46fa6'
+            label: Text
+            name: 5d46fa6
+            widget: string
+          - hint: 'Original text: Align columns, key: 13b925a2'
+            label: Text
+            name: 13b925a2
+            widget: string
+          - hint: 'Original text: row, key: 1b9da'
+            label: Text
+            name: 1b9da
+            widget: string
+          - hint: 'Original text: row-align-center, key: -7967a2d0'
+            label: Text
+            name: '-7967a2d0'
+            widget: string
+          - hint: 'Original text: row-align-end, key: 1cda1de0'
+            label: Text
+            name: 1cda1de0
+            widget: string
+          - hint: 'Original text: Justify columns, key: -7ab139d3'
+            label: Text
+            name: '-7ab139d3'
+            widget: string
+          - hint: 'Original text: row-justify-end, key: -73b98b55'
+            label: Text
+            name: '-73b98b55'
+            widget: string
+          - hint: 'Original text: row-justify-center, key: -8df717b'
+            label: Text
+            name: '-8df717b'
+            widget: string
+          - hint: 'Original text: row-justify-around, key: -b917803'
+            label: Text
+            name: '-b917803'
+            widget: string
+          - hint: 'Original text: row-justify-between, key: -479f1028'
+            label: Text
+            name: '-479f1028'
+            widget: string
+          - hint: 'Original text: Reorder columns, key: -7dc1de68'
+            label: Text
+            name: '-7dc1de68'
+            widget: string
+          - hint: 'Original text: col-lg-first, key: 16195d8b'
+            label: Text
+            name: 16195d8b
+            widget: string
+          - hint: 'Original text: col-md-first, key: -20b82759'
+            label: Text
+            name: '-20b82759'
+            widget: string
+          - hint: 'Original text: col-sm-first, key: 2aa6fb2a'
+            label: Text
+            name: 2aa6fb2a
+            widget: string
+          - hint: 'Original text: col-xs-first, key: 6f723f0b'
+            label: Text
+            name: 6f723f0b
+            widget: string
+          - hint: 'Original text: col-lg-last, key: 534dc05b'
+            label: Text
+            name: 534dc05b
+            widget: string
+          - hint: 'Original text: col-md-last, key: -7cea8e41'
+            label: Text
+            name: '-7cea8e41'
+            widget: string
+          - hint: 'Original text: col-sm-last, key: -30298d24'
+            label: Text
+            name: '-30298d24'
+            widget: string
+          - hint: 'Original text: col-xs-last, key: -1d6d5125'
+            label: Text
+            name: '-1d6d5125'
+            widget: string
+          - hint: 'Original text: Other columns modifiers, key: 7c979ac9'
+            label: Text
+            name: 7c979ac9
+            widget: string
+          - hint: 'Original text: Shrink Column, key: 2a8de54d'
+            label: Text
+            name: 2a8de54d
+            widget: string
+          - hint: 'Original text: col-shrink, key: -5449810a'
+            label: Text
+            name: '-5449810a'
+            widget: string
+          - hint: 'Original text: Gutterless Column, key: -66bb183e'
+            label: Text
+            name: '-66bb183e'
+            widget: string
+          - hint: 'Original text: row-no-gutters, key: 5a0c487f'
+            label: Text
+            name: 5a0c487f
+            widget: string
+          - hint: 'Original text: col-no-gutters, key: -3694a2e7'
+            label: Text
+            name: '-3694a2e7'
             widget: string
       - label: Links
         name: links
@@ -1033,14 +2210,6 @@ collections:
             label: Link
             name: 29a824b
             widget: string
-          - hint: 'Original link: #Hero-Heading, key: 6bb066d2'
-            label: Link
-            name: 6bb066d2
-            widget: string
-          - hint: 'Original link: #About, key: 3f7bd12a'
-            label: Link
-            name: 3f7bd12a
-            widget: string
           - hint: 'Original link: #, key: 23'
             label: Link
             name: '23'
@@ -1054,6 +2223,10 @@ collections:
               -395e5746
             label: Link
             name: '-395e5746'
+            widget: string
+          - hint: 'Original link: https://github.com/normanpal, key: -28e30d78'
+            label: Link
+            name: '-28e30d78'
             widget: string
           - hint: >-
               Original link: https://www.linkedin.com/in/norman-pál-278526208/,
@@ -1076,6 +2249,20 @@ collections:
             label: Link
             name: '-6aead341'
             widget: string
+          - hint: 'Original link: https://nocodesupply.co/mast, key: -3fd37f4a'
+            label: Link
+            name: '-3fd37f4a'
+            widget: string
+          - hint: 'Original link: https://nocodesupply.co/mast/docs, key: 20faf3f4'
+            label: Link
+            name: 20faf3f4
+            widget: string
+          - hint: >-
+              Original link: https://www.fontshare.com/fonts/general-sans, key:
+              7b40f355
+            label: Link
+            name: 7b40f355
+            widget: string
       - label: Images
         name: images
         file: cms/_data/images.json
@@ -1085,7 +2272,7 @@ collections:
             widget: hidden
             default: Images
           - label: Image
-            name: 64db88a7
+            name: e0dfbd7
             widget: object
             fields:
               - name: url
@@ -1098,7 +2285,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-25bf958c'
+            name: 4c4c46d2
             widget: object
             fields:
               - name: url
@@ -1111,7 +2298,85 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 7c68b25a
+            name: i547317e7
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 7d4ed67b
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 66c74a22
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-3acaa94c'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '0'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: bc3940b
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 4cbaa513
             widget: object
             fields:
               - name: url
@@ -1125,6 +2390,19 @@ collections:
                 required: false
           - label: Image
             name: 7bdd5078
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-27eac088'
             widget: object
             fields:
               - name: url

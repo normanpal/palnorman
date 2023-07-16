@@ -44,7 +44,7 @@ module.exports = function (eleventyConfig) {
         if (video.url.includes("vimeo")) {
             oembedUrl = "https://vimeo.com/api/oembed.json?url=" + video.url;
             
-        } else if (video.url.includes("youtube")) {
+        } else if (video.url.includes("you")) {
           oembedUrl = `https://youtube.com/oembed?url=${video.url}&format=json`;
         }
 

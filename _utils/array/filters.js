@@ -58,14 +58,28 @@ module.exports = {
                     shuffle = true;
             }
 
-            array = array.sort((a, b) => {
-                if (reverse) {
-                    return get(a.data, field, "") > get(b.data, field, "") ? -1 : 1;
-                } else {
-                    return get(a.data, field, "") > get(b.data, field, "") ? 1 : -1;
-                }
+            const isDate = field.includes('date');
 
-            })
+            if (isDate) {
+                array = array.sort((a, b) => {
+                    if (reverse) {
+                        return new Date(get(a.data, field, "")).getTime() > new Date(get(b.data, field, "")).getTime() ? -1 : 1;
+                    } else {
+                        return new Date(get(a.data, field, "")).getTime() > new Date(get(b.data, field, "")).getTime() ? 1 : -1;
+                    }
+    
+                })
+            } else {
+                array = array.sort((a, b) => {
+                    if (reverse) {
+                        return get(a.data, field, "") > get(b.data, field, "") ? -1 : 1;
+                    } else {
+                        return get(a.data, field, "") > get(b.data, field, "") ? 1 : -1;
+                    }
+    
+                })
+            }
+            
         })
 
         if (shuffle) {

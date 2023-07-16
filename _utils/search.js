@@ -52,7 +52,7 @@ module.exports = function(memo) {
         })
 
         if (!newPost.excerpt || !newPost.f_excerpt) {
-            newPost.excerpt = removeMarkdown(originalPost.template.frontMatter.content.trim()).split(" ").slice(0, 50).join(" ");
+            newPost.excerpt = "";
 
         }
 

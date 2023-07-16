@@ -82,7 +82,14 @@ const operators = {
 
 module.exports = function compareItemByFilter(item, filter, currentItem) {
     let [fieldPath, operator, value] = filter;
-    const itemValue = get(item.data, fieldPath, "");
+    let itemValue = get(item.data, fieldPath, "");
+
+    if (Array.isArray(itemValue)) {
+        itemValue = itemValue.map(e => e.replace('.md', ''));
+    } else if (typeof itemValue == "string") {
+       itemValue = itemValue.replace('.md', '');
+    }
+    
 
     if (value.startsWith("cms/cms/")) {
         value = value.replace("cms/cms/", "cms/")
