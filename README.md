@@ -2,6 +2,9 @@
 This repository was created using the Udesly Adapter
 
 2023.05.17
+- Beta Upload
+
+2023.05.17
 - Updated Robots.txt with /admin disallow
 
 2023.04.30
