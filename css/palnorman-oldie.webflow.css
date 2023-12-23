@@ -1735,6 +1735,7 @@ figcaption {
   justify-content: center;
   align-items: center;
   display: flex;
+  overflow: hidden;
 }
 
 .section.cc-coming-soon-footer {
@@ -1744,6 +1745,7 @@ figcaption {
   padding-top: 2rem;
   padding-bottom: 2rem;
   display: flex;
+  overflow: hidden;
 }
 
 .styles__section-label {
