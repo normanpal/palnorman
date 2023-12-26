@@ -1,10 +1,12 @@
-# palnorman
+# palnorman.com
 
 2023.12.23
-- 1.0 Pre-release Upload
+- Updated with Coming Soon title
+- Removed CMS
+- No more Udesly-Netlify conversion
 
 2023.07.16
-- Beta Upload
+- Beta upload
 
 2023.05.17
 - Updated Robots.txt with /admin disallow
@@ -14,5 +16,4 @@
 - Added sitemap path
 
 2023.04.26
-- Pre-Release Upload
-- Renamed to palnorman from palnorman-jam
+- Alpha upload
