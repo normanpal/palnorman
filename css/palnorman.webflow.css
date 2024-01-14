@@ -390,6 +390,14 @@ strong {
   background-color: var(--mid-gray);
 }
 
+.btn.cc-dark:focus-visible {
+  background-color: var(--primary);
+}
+
+.btn.cc-dark[data-wf-focus-visible] {
+  background-color: var(--primary);
+}
+
 .btn.cc-secondary {
   border-color: var(--mid-gray);
   background-color: var(--dark-gray);
