@@ -2500,7 +2500,7 @@ strong {
 }
 @font-face {
   font-family: 'Inter Variable';
-  src: url('../images/') format('truetype');
+  src: url('../fonts/Inter-VariableFont_slntwght.ttf') format('truetype');
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
