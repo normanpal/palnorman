@@ -1,10 +1,15 @@
-<!DOCTYPE html><!--  Last Published: Sun Jan 14 2024 19:12:30 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="657f35b3a941ecab959cb597" data-wf-site="655e6211b90e01f90af6dcbe" lang="hu">
+<!DOCTYPE html><!--  Last Published: Sat Feb 17 2024 10:22:29 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="65a6be588998371998c9ea2b" data-wf-site="655e6211b90e01f90af6dcbe" lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Protected page</title>
-  <meta content="Protected page" property="og:title">
-  <meta content="Protected page" property="twitter:title">
+  <title>Védett oldal</title>
+  <meta content="Add meg a jelszót." name="description">
+  <meta content="Védett oldal" property="og:title">
+  <meta content="Add meg a jelszót." property="og:description">
+  <meta content="Védett oldal" property="twitter:title">
+  <meta content="Add meg a jelszót." property="twitter:description">
+  <meta property="og:type" content="website">
+  <meta content="summary_large_image" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
@@ -41,16 +46,34 @@
 </style>
 </head>
 <body>
+  <div class="styles__global-embed-code w-embed">
+    <style>
+/* Text link underline size and spacing */
+a {
+	text-underline-position: under; 
+	text-decoration-thickness: 0.1em;
+	text-underline-offset: 0.05em;
+}
+/* Remove top margin on rich text first child */
+.w-richtext>:first-child {
+	margin-top: 0;
+}
+/* Remove bottom margin of rich text last child */
+.w-richtext>:last-child, .w-richtext ol li:last-child, .w-richtext ul li:last-child {
+	margin-bottom: 0;
+}
+</style>
+  </div>
   <div class="page-wrapper cc-utility">
     <div class="utility_container w-password-page w-form">
-      <form action="/.wf_auth" method="post" id="email-form" name="email-form" data-name="Email Form" class="utility_form w-password-page" data-wf-page-id="657f35b3a941ecab959cb597" data-wf-element-id="61e3271b16f8db05f329df3600000000000c">
+      <form action="/.wf_auth" method="post" id="email-form" name="email-form" data-name="Email Form" class="utility_form w-password-page" data-wf-page-id="65a6be588998371998c9ea2b" data-wf-element-id="61e3271b16f8db05f329df3600000000000c">
         <div class="card">
           <div class="card-body">
             <h1 class="h2">Védett oldal</h1>
             <div class="input-group"><label for="pass" class="input-label u-text-white w-password-page">Jelszó</label><input class="input cc-light w-password-page w-input" autofocus="true" maxlength="256" name="pass" data-name="field" placeholder="Add meg a jelszót" type="password" id="pass"></div><input type="submit" data-wait="Kérlek várj..." class="btn cc-full w-password-page w-button" value="Hozzáférés kérése">
           </div>
         </div>
-        <div class="w-password-page w-form-fail">
+        <div class="form-error cc-pw w-password-page w-form-fail">
           <div>Incorrect password. Please try again.</div>
         </div>
         <div style="display:none" class="w-password-page w-embed w-script"><input type="hidden" name="path" value="<%WF_FORM_VALUE_PATH%>"><input type="hidden" name="page" value="<%WF_FORM_VALUE_PAGE%>"></div>

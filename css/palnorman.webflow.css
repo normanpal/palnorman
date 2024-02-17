@@ -482,6 +482,10 @@ strong {
   overflow: visible;
 }
 
+.card.cc-work.modal-component {
+  height: 100%;
+}
+
 .card.cc-benefits {
   border-top: 1px solid var(--mid-gray);
   border-right: 1px solid var(--mid-gray);
@@ -501,6 +505,7 @@ strong {
 
 .card-body.cc-work {
   flex-direction: row;
+  flex: none;
   justify-content: space-between;
   display: flex;
 }
@@ -560,6 +565,11 @@ strong {
   margin-top: 1em;
   padding: .5em .7em;
   font-weight: 500;
+}
+
+.form-error.cc-pw {
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 .input-group {
@@ -1440,7 +1450,15 @@ strong {
   max-width: 320px;
 }
 
-.subtext-block, .about-text {
+.subtext-block {
+  max-width: 640px;
+}
+
+.subtext-block.cc-contact {
+  max-width: 520px;
+}
+
+.about-text {
   max-width: 540px;
 }
 
@@ -1583,7 +1601,7 @@ strong {
   overflow: auto;
 }
 
-.modal-wrapper.cc-contact {
+.modal-wrapper.cc-contact, .modal-wrapper._1, .modal-wrapper._2 {
   display: none;
 }
 
@@ -1755,7 +1773,7 @@ strong {
   text-align: left;
 }
 
-.u-d-inline-block {
+.u-d-inlineblock {
   display: inline-block;
 }
 
@@ -1806,6 +1824,10 @@ strong {
 .card-footer-info {
   flex-direction: column;
   display: flex;
+}
+
+.card-footer-info.cc-align-left {
+  align-items: flex-start;
 }
 
 .esc-to-close {
@@ -2022,7 +2044,7 @@ strong {
 
 @media screen and (max-width: 767px) {
   h1 {
-    font-size: 2.25rem;
+    font-size: 2.15rem;
   }
 
   h2 {
@@ -2046,7 +2068,7 @@ strong {
   }
 
   .h1 {
-    font-size: 2.25rem;
+    font-size: 2.15rem;
   }
 
   .h2 {
@@ -2221,7 +2243,7 @@ strong {
   }
 
   .hero-subtext {
-    max-width: 300px;
+    max-width: 260px;
   }
 
   .subtext-block {
@@ -2464,15 +2486,15 @@ strong {
   }
 }
 
-#w-node-_08481532-ee43-144c-e1a3-222721d5c148-959cb591 {
+#w-node-_08481532-ee43-144c-e1a3-222721d5c148-98c9ea27, #w-node-_1bbd85a8-63bc-2052-01cd-d9c655d344de-98c9ea27 {
   grid-area: 2 / 1 / 3 / 2;
 }
 
-#w-node-dca93001-ef25-851c-2bf1-5bfbeabdea86-959cb591 {
+#w-node-dca93001-ef25-851c-2bf1-5bfbeabdea86-98c9ea27 {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
-#w-node-_034c9923-0897-f559-7c69-b4c1d452c923-959cb591 {
+#w-node-_034c9923-0897-f559-7c69-b4c1d452c923-98c9ea27 {
   grid-area: 2 / 1 / 3 / 2;
 }
 

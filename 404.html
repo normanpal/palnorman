@@ -1,10 +1,15 @@
-<!DOCTYPE html><!--  Last Published: Sun Jan 14 2024 19:12:30 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="657f35b3a941ecab959cb598" data-wf-site="655e6211b90e01f90af6dcbe" lang="hu">
+<!DOCTYPE html><!--  Last Published: Sat Feb 17 2024 10:22:29 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="65a6be588998371998c9ea2c" data-wf-site="655e6211b90e01f90af6dcbe" lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Not Found</title>
-  <meta content="Not Found" property="og:title">
-  <meta content="Not Found" property="twitter:title">
+  <title>Oldal nem található</title>
+  <meta content="Az oldal amit keresel nem található vagy áthelyezték" name="description">
+  <meta content="Oldal nem található" property="og:title">
+  <meta content="Az oldal amit keresel nem található vagy áthelyezték" property="og:description">
+  <meta content="Oldal nem található" property="twitter:title">
+  <meta content="Az oldal amit keresel nem található vagy áthelyezték" property="twitter:description">
+  <meta property="og:type" content="website">
+  <meta content="summary_large_image" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
@@ -41,11 +46,29 @@
 </style>
 </head>
 <body>
+  <div class="styles__global-embed-code w-embed">
+    <style>
+/* Text link underline size and spacing */
+a {
+	text-underline-position: under; 
+	text-decoration-thickness: 0.1em;
+	text-underline-offset: 0.05em;
+}
+/* Remove top margin on rich text first child */
+.w-richtext>:first-child {
+	margin-top: 0;
+}
+/* Remove bottom margin of rich text last child */
+.w-richtext>:last-child, .w-richtext ol li:last-child, .w-richtext ul li:last-child {
+	margin-bottom: 0;
+}
+</style>
+  </div>
   <div class="page-wrapper cc-utility">
     <div class="utility_container">
       <div class="h4">404</div>
       <h1 class="h2">Oldal nem található</h1>
-      <div class="u-mb-1">Az oldal amit keresel nem létezik vagy áthelyezték</div>
+      <div class="u-mb-1">Az oldal amit keresel nem található vagy áthelyezték.</div>
       <a href="index.html" class="btn cc-404 w-button">Vissza a főoldalra</a>
     </div>
   </div>
