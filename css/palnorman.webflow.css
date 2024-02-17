@@ -1499,6 +1499,7 @@ strong {
 
 .hero-bg {
   z-index: -10;
+  width: auto;
   max-width: none;
   pointer-events: none;
   object-fit: fill;
