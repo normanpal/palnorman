@@ -126,6 +126,7 @@ li {
 }
 
 img {
+  width: 100%;
   max-width: 100%;
   border-radius: 4px;
   display: inline-block;
@@ -1823,11 +1824,17 @@ strong {
 
 .card-footer-info {
   flex-direction: column;
+  align-items: flex-start;
   display: flex;
 }
 
 .card-footer-info.cc-align-left {
   align-items: flex-start;
+}
+
+.card-footer-info.cc-right {
+  align-items: stretch;
+  margin-top: 1em;
 }
 
 .esc-to-close {
