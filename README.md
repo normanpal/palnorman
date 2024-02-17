@@ -1,5 +1,8 @@
 # palnorman.com
 
+2024.02.17.
+- Added new case study
+
 2024.01.14.
 - Uploaded Version 1.0
 
