@@ -45,6 +45,8 @@
 }
 
 body {
+  height: 100%;
+  overflow: hidden;
   background-color: var(--black);
   color: var(--light-gray);
   font-family: Inter Variable, Arial, sans-serif;
